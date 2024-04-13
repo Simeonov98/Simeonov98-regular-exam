@@ -37,7 +37,7 @@ jobs:
     - name: Install the dependencies
       run: npm install
     - name: Install the dependencies
-      run: npx playwirght install
+      run: npx playwright install
     - name: Run unit tests
       run: npm run test:ui
 
